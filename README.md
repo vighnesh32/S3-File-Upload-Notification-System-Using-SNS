@@ -1,10 +1,10 @@
 # S3-File-Upload-Notification-System-Using-SNS
 
 
-Overview
+## Overview
 This project demonstrates an automated notification system using Amazon S3 and Amazon SNS. Whenever a new file is uploaded to a designated S3 bucket, Amazon SNS sends an email alert to subscribed users. This automation enhances visibility and removes the need for manual monitoring in file management workflows.
 
-Objective
+## Objective
 Send automated email notifications every time a new file is uploaded to a specified S3 bucket.
 
 Improve workflow automation and visibility into file uploads.
@@ -22,14 +22,14 @@ Sends notifications via email (can also support SMS, HTTP).
 
 Used to alert users/administrators about new uploads in the S3 bucket.
 
-Architecture
+## Architecture
 File uploaded to S3 bucket.
 
 S3 triggers an event for the object creation.
 
 SNS topic receives the event and distributes notifications to email subscribers.
 
-Setup Guide
+## Setup Guide
 Create an S3 bucket
 
 Used to store files and generate upload events.
